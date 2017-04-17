@@ -1,0 +1,15 @@
+function rectangle(width, height) {
+    var init= "";
+    var star= "*";
+    for (i=0; i<width; i++) {
+      init= init+ star;
+    }
+    init= init+ "\n";
+    var shape="";
+    for (j=0; j<height; j++) {
+      shape= shape+ init;
+    }
+    return(shape);
+}
+
+console.log(rectangle(3,4));
