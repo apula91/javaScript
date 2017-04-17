@@ -1,0 +1,10 @@
+function line(n) {
+    var init="";
+    var dash="-";
+    for (step=0; step<n; step++) {
+    init=init+dash
+    }
+    return(init);
+}
+
+console.log(line(9));
